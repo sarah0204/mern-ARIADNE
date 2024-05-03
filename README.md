@@ -15,3 +15,22 @@
    1. npm i react-router-dom
    2. Create Route for Home Screen
    3. Create Router for Product Screen
+7. Create Node.JS Server
+   1. run npm init in root folder
+   2. Update package.json set type: module
+   3. Add .js to Imports
+   4. npm install express
+   5. Create server.js
+   6. Add Start Command as node backend/server.js
+   7. Require Express
+   8. Create Route for / return backend is ready
+   9. Move products.js from frontend to backend
+   10. Create Route for /api/products
+   11. Return Products
+   12. run npm start
+8. Fetch Products from Backend
+   1. Set proxy in package.json
+   2. npm install axios
+   3. Use state hook
+   4. Use effect hook
+   5. Use reducer hook
